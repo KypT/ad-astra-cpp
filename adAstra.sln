@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "adAstra", "adAstra\adAstra.vcxproj", "{12B012D0-A2F9-4924-8CB0-9BEDA843438A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{766BF2AF-71DC-4088-AC1A-02397926AB91} = {766BF2AF-71DC-4088-AC1A-02397926AB91}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Graphics Libriary", "Graphics Libriary\Graphics Libriary.vcxproj", "{766BF2AF-71DC-4088-AC1A-02397926AB91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12B012D0-A2F9-4924-8CB0-9BEDA843438A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{12B012D0-A2F9-4924-8CB0-9BEDA843438A}.Debug|Win32.Build.0 = Debug|Win32
+		{12B012D0-A2F9-4924-8CB0-9BEDA843438A}.Release|Win32.ActiveCfg = Release|Win32
+		{12B012D0-A2F9-4924-8CB0-9BEDA843438A}.Release|Win32.Build.0 = Release|Win32
+		{766BF2AF-71DC-4088-AC1A-02397926AB91}.Debug|Win32.ActiveCfg = Debug|Win32
+		{766BF2AF-71DC-4088-AC1A-02397926AB91}.Debug|Win32.Build.0 = Debug|Win32
+		{766BF2AF-71DC-4088-AC1A-02397926AB91}.Release|Win32.ActiveCfg = Release|Win32
+		{766BF2AF-71DC-4088-AC1A-02397926AB91}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
